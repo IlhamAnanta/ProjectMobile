@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iconMenu"
+        android:layout_width="29dp"
+        android:layout_height="21dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_back" />
+
+    <ImageView
+        android:id="@+id/iconSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="163dp"
+        android:src="@drawable/ic_certificate" />
+
+    <ImageView
+        android:id="@+id/iconNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="-242dp"
+        android:layout_toStartOf="@id/iconSearch"
+        android:src="@drawable/icon_notification" />
+
+    <ImageView
+        android:id="@+id/iconSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toStartOf="@id/iconNotification"
+        android:src="@drawable/ic_profil" />
+
+    <ImageView
+        android:id="@+id/iconNotification"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iconMenu"
+        android:layout_marginTop="13dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_3" />
+
+    <ImageView
+        android:id="@+id/ic_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iconMenu"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_content" />
+
+    <RelativeLayout
+        android:id="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/navbar_training"
+        tools:ignore="UnknownId">
+
+    </RelativeLayout>
+</RelativeLayout>
