@@ -23,7 +23,7 @@
         android:src="@drawable/ic_certificate" />
 
     <ImageView
-        android:id="@+id/iconNotification"
+        android:id="@+id/certficate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
